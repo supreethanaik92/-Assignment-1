@@ -1,0 +1,148 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times new Roman';
+}
+
+ 
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+ 
+.navbar {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1e90ff;
+  color: white;
+ background-color: #fff;
+}
+
+
+.logo {
+  color: #0077ff;
+  font-weight: 700;
+  font-size: 22px;
+} 
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #0077ff;
+  color: #fff;
+}
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #1e90ff; /* Clear boundary below */
+  padding-bottom: 60px;
+}
+
+.profile-pic {
+  position: relative;
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.profile-pic img {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid #1e90ff;
+  display: block;
+}
+
+/* Decorative Mark */
+.decorative-dot {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  z-index: 10; /* Stays on top of image */
+}
+
+/* About Text */
+.about-text {
+  flex: 2 1 600px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Skills Section */
+.skills {
+  padding: 60px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1e90ff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Perfect 3-column grid */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill-tile {
+  background-color: #ffffff;
+  border: 2px solid #1e90ff;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill-tile:hover {
+  background-color: #1e90ff;
+  color: white;
+  transform: translateY(-5px);
+}
+
+ 
