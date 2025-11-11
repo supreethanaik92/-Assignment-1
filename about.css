@@ -51,7 +51,7 @@ nav ul li a.active {
   background-color: #0077ff;
   color: #fff;
 }
-/* About Section */
+ 
 .about {
   padding: 60px 20px;
   background-color: #ffffff;
@@ -64,7 +64,7 @@ nav ul li a.active {
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
-  border-bottom: 3px solid #1e90ff; /* Clear boundary below */
+  border-bottom: 3px solid #1e90ff; 
   padding-bottom: 60px;
 }
 
@@ -81,7 +81,7 @@ nav ul li a.active {
   display: block;
 }
 
-/* Decorative Mark */
+ 
 .decorative-dot {
   position: absolute;
   top: -5px;
@@ -90,10 +90,10 @@ nav ul li a.active {
   height: 15px;
   background-color: #ffd700;
   border-radius: 50%;
-  z-index: 10; /* Stays on top of image */
+  z-index: 10; 
 }
 
-/* About Text */
+
 .about-text {
   flex: 2 1 600px;
 }
@@ -109,7 +109,7 @@ nav ul li a.active {
   line-height: 1.8;
 }
 
-/* Skills Section */
+ 
 .skills {
   padding: 60px 20px;
   background-color: #f1f1f1;
@@ -124,7 +124,7 @@ nav ul li a.active {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Perfect 3-column grid */
+  grid-template-columns: repeat(3, 1fr);  
   gap: 20px;
   max-width: 900px;
   margin: 0 auto;
@@ -146,3 +146,4 @@ nav ul li a.active {
 }
 
  
+
